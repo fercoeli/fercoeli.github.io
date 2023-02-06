@@ -1,0 +1,41 @@
+.profilo {
+    height: 80px;
+    width: 80px;
+}
+
+.contatti a {
+    text-decoration: none;
+    color: grey;
+
+}
+
+.contatti a:hover {
+    color: rgb(2, 139, 139);
+    text-decoration: 2px underline;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.titolo h5 {
+    color: rgb(2, 139, 139);
+}
+
+.nav {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(206, 206, 206));
+}
+
+.nav .nav-item .nav-link {
+    color: rgb(2, 139, 139);
+}
+
+.nav {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.nav .nav-link:hover {
+    color: black;
+    text-decoration: 2px underline;
+    text-decoration-style: double;
+    font-weight: bold;
+}
