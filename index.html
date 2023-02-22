@@ -1,90 +1,469 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Fernando Martin Coeli</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <title>Fernando Martin Coeli</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  
-  <!-- Modifiche alle classi standard di Bootstrap -->
-  <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <!-- Modifiche alle classi standard di Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
 
-  <script src="https://kit.fontawesome.com/f6f5433a85.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/f6f5433a85.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-  <header>
-    <div class="container-fluid my-2 p-2">
+  <body>
+    <header class="p-2">
+      <div class="container-fluid">
         <div class="row justify-content-between align-items-center g-2">
-            <div class="col-3">
-                <img src="images/card.jpg" class="rounded-circle profilo" alt="...">
-            </div>
-            <div class="col-6 titolo" >
-                <h3 class="text-center">Fernando Martin Coeli</h3>
-                <h5 class="text-center">Sviluppatore Web Jr // Ingegnere Chimico // Mastro Birraio</h5>
-            </div>
-            <div class="col-3 contatti">
-                <h5 class="text-end">Torino (TO) - Italia</h5>
-                <h6 class="text-end"><a href="mailto:fercoeli@gmail.com"><i class="fa-solid fa-envelope-circle-check"></i> fercoeli@gmail.com</a></h6>
-                <h6 class="text-end"><a href="tel:+393497037114"><i class="fa-solid fa-square-phone"></i> +39 349 703 7114</a></h6>
-            </div>
+          <div class="col-9 title">
+            <h3 class="text">Fernando Martin Coeli</h3>
+            <h5 class="text">Jr Web Developer // Chemical Engineer // Brewer</h5>
+          </div>
+          <div class="col-3 contact">
+            <h5 class="text-end">Turin (TO) - Italy</h5>
+            <h6 class="text-end">
+              <a href="mailto:fercoeli@gmail.com"
+                ><i class="fa-solid fa-envelope-circle-check"></i>
+                fercoeli@gmail.com</a
+              >
+            </h6>
+            <h6 class="text-end">
+              <a href="tel:+393497037114"
+                ><i class="fa-solid fa-square-phone"></i> +39 349 703 7114</a
+              >
+            </h6>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <ul class="nav justify-content-center my-3 p-2">
+      <div class="nav-bar"><a id="nav-head"></a>
+      <ul class="nav justify-content-center my-2 p-2">
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/fercoeli" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a class="nav-link" href="#personal"
+            ><i class="fa-solid fa-user-tie"></i> Personal Information</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/fernando-coeli-2a8a09255/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <a class="nav-link" href="#education"
+            ><i class="fa-solid fa-graduation-cap"></i> Education</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa-solid fa-user-tie"></i> Dati Personali</a>
+          <a class="nav-link" href="#experience"
+            ><i class="fa-solid fa-briefcase"></i> Professional experience</a
+          >
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa-solid fa-graduation-cap"></i> Formazione</a>
+          <a class="nav-link" href="#skills"
+            ><i class="fa-solid fa-list-check"></i> Soft Skills</a
+          >
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa-solid fa-list-check"></i> Skills</a>
+          <a class="nav-link" href="#additional"
+            ><i class="fa-solid fa-circle-info"></i> Linguistic & Digital Skills</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa-solid fa-briefcase"></i> Esperienza professionale</a>
+          <a class="nav-link" href="https://github.com/fercoeli" target="_blank"
+            ><i class="fa-brands fa-github"></i> GitHub</a
+          >
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa-solid fa-circle-info"></i> Informazioni Supplementari</a>
-          </li>
+        <!-- <li class="nav-item">
+          <a
+            class="nav-link"
+            href="https://www.linkedin.com/in/fernando-coeli-2a8a09255/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+          >
+        </li>  -->
       </ul>
-  </header>
-  
-  <main>
-    
-    <div class="container-fluid">
+      </div>
+    </header>
 
-    </div>
+    <main class="p-3">
+      <div class="container-fluid border-2 border rounded shadow welcome">
+        <div class="row align-items-center">
+          <div class="col-2 p-2">
+            <img src="images/foto mod.jpg" class=" rounded profile" alt="Profile photo"/>
+          </div>
+          <div class="col-10">
+            <p class="lh-lg pt-2">I have a solid experience in business management, quality management systems, interpersonal relations, working with
+              multidisciplinary teams, relations with government and regulatory entities.
+              <br><br>
+              Convinced that the best projects take place in work environments with a strong sense of team collaboration,
+              self‐responsibility, autonomy, and professionalism, surrounded by motivated people with a shared vision of the
+              objectives to be achieved. 
+              <br><br>
+              Every day I like to take time for a walk in nature and appreciate all it has to offer, getting back in touch with it
+              and myself.
+            </p>
+          </div>
+        </div>  
+      </div>
 
-    <div class="container-fluid dati-personali">
+      <div class="card border-2 border text-start mt-5 personal-information"><a id="personal"></a>
+          <div class="mb-3 titolo">
+            <h4>Personal Information</h4>
+            <a class="nav-link" href="#nav-head" style="margin-left: 15px;"><i class="fa-solid fa-arrow-turn-up"></i></a>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title"><b><u>Fullname:</u></b> Fernando Martin Coeli</h6>
+            <h6 class="card-title"><b><u>Age:</u></b> 44 years</h6>
+            <h6 class="card-title"><b><u>Birth date:</u></b> 1979-02-12</h6>
+            <h6 class="card-title"><b><u>Birth place:</u></b> Rafaela - Santa Fe - ARG</h6>
+            <h6 class="card-title"><b><u>Nationality:</u></b> Argentinian - Italian </h6><br>
+            <h6 class="card-title"><b><u>Current Residence:</u></b> Turin, Italy</h6>
+            <h6 class="card-title"><b><u>Current Address:</u></b> Via Oropa, 62</h6>
+            <h6 class="card-title"><b><u>Phone contact:</u></b> +39 349 703 7114</h6>
+            <h6 class="card-title"><b><u>E-mail:</u></b> fercoeli@gmail.com</h6>
+          </div>
+      </div>
 
-    </div>
+      <div class="container-fluid border-2 border rounded text-start mt-5 pb-4 education"><a id="education"></a>
+        <div class="mb-3 titolo">
+        <h4>Education</h4>
+        <a class="nav-link" href="#nav-head" style="margin-left: 15px;"><i class="fa-solid fa-arrow-turn-up"></i></a>
+        </div>
+        <div class="row ps-4 pe-4">
+        <div class="card mx-auto gy-4" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="images/Engim_Piemonte_LOGO.jpg"
+                class="img-fluid rounded mx-auto"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Web Developer Technician</h4>
+                <p class="card-text">Engim Piemonte (IT)</p>
+                <p class="card-text">Edition 2022-2023 <em>(fine: luglio 2023)</em></p>
+                <p class="card-text">
+                  <small class="text-muted"
+                    >Duration: 1000 hours (400 hours in company)</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mx-auto gy-4" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="images/cerveza.jpg"
+                class="img-fluid rounded mx-auto"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Beer Production Expert</h4>
+                <p class="card-text">Centro de Cata de Cerveza (ARG)</p>
+                <p class="card-text">Edition 2015</p>
+                <p class="card-text">
+                  <small class="text-muted">Duration: 8 months</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mx-auto gy-4 mb-4" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="images/UNC1.jpeg"
+                class="img-fluid rounded mx-auto"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Chemical Engineer</h4>
+                <p class="card-text">Universidad Nacional de Córdoba (ARG)</p>
+                <p class="card-text">1997 - 2002</p>
+                <p class="card-text">
+                  <small class="text-muted">Grade: 8.77 (max. 10)</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+      </div>
+
+      <div class="container-fluid border-2 border rounded text-start mt-5 pb-4 experience"><a id="experience"></a>
+        <div class="mb-3 titolo">
+        <h4>Professional experience</h4>
+        <a class="nav-link" href="#nav-head" style="margin-left: 15px;"><i class="fa-solid fa-arrow-turn-up"></i></a>
+        </div>
+        <div class="accordion ps-2 pe-2" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                <em><b>Craft Beer Entrepreneur</em></b> (2018-2022)
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <h5><em>The Others SRL (Argentina: Buenos Aires)</em></h5>
+                <p><strong>Co‐Founder // Production Manager (2018-2022)</strong></p>
+                <ul>
+                  <li>Project design, implementation, and start‐up of craft microbrewery "The Others".</li>
+                  <li>Specification and purchase of equipment, layout design, piping, and auxiliary services for the assembly of a
+                    craft brewery. Execution of mechanical‐electrical works and start‐up.
+                  </li>
+                  <li>Responsible for brewing beer according to the stipulated schedule, following the Quality Manual and Good
+                    Manufacturing Practices.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                <em><b>O&G Industry</em></b>(2005-2018)
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <h5><em>Pluspetrol SA (Argentina: Buenos Aires, Neuquen, Tartagal  //  Angola: Cabinda)</em></h5>
+                <p><strong>“Young Professionals Program” Corporate Manager (2015-2018)</strong></p>
+                <p><strong>“Cabinda South Block” Manager (2014-2015)</strong></p>
+                <p><strong>“El Corcobo Norte Block” Engineering Production Team Leader (2012-2014)</strong></p>
+                <p><strong>“Palmar Largo Block” Manager (2010-2012)</strong></p>
+                <p><strong>“Palmar Largo Block” Production Head (2009-2010)</strong></p>
+                <p><strong>“Ramos Block” Production Engineer (2007-2009)</strong></p>
+                <p><strong>“Ramos Block” Operations Planning Supervisor (2005-2007)</strong></p>
+                <br>
+                <p>During my professional career in the industry I assumed different roles focusing mainly in 3 areas: General Management,
+                   Engineering and Human Resources.
+                </p>
+                <br>
+                <p><em>General Management</em></p>
+                <ul>
+                  <li>Responsible for the integral management of petroleum fields.</li>
+                  <li>Responsible for Annual Budgets: Operating Costs (U$ 20MM) and Investments (U$ 30MM).</li>
+                  <li>Experience leading own and contracted collaborators.</li>
+                  <li>Leading of Committee Meetings (OCM, TCM) representing the company before partners and public authorities.</li>
+                </ul>
+                <p><em>Engineering</em></p>
+                <ul>
+                  <li>Follow‐up and performance evaluation of producer, injector and disposal wells.</li>
+                  <li>Monitoring and evaluation of complex compression systems (25.000 HP).</li>
+                  <li>Performance and optimization of Artificial Lift Systems (ALS).</li>
+                </ul>
+                <p><em>Human Resources</em></p>
+                <ul>
+                  <li>Design and implementation of a Young Professionals Program for technical areas (Engineering Specialties).</li>
+                  <li>Personal and Technical profile definition for recruitment process.</li>
+                  <li>Participation during Recruitment Stage (assessment center, individual interviews).</li>
+                  <li>Follow‐up of New Professionals during their training stage (first year).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <em><b>Tannery Industry</em></b>(2002-2005)
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <h5><em>Sadesa SA (Argentina: Esperanza)</em></h5>
+                <p><strong>Product and Process Engineer (2004-2005)</strong></p>
+                <p><strong>Shift Supervisor of Finished Leather (2002-2004)</strong></p>
+                <ul>
+                  <li>Identification of opportunities for technical optimization of bovine leather treatment processes (substitution
+                      of chemical products for better technical‐economic alternatives, optimization of product dosage, analysis of
+                      production process times).
+                  </li>
+                  <li>Failure analysis of finished products and elaboration of root‐cause analysis.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid border-2 border rounded text-start mt-5 pb-4 skills"><a id="skills"></a>
+        <div class="mb-3 titolo">
+        <h4>Soft Skills <span style="font-size: 0.8em;">(&reg; Lominger Competences)</span></h4>
         
+        <a class="nav-link" href="#nav-head" style="margin-left: 15px;"><i class="fa-solid fa-arrow-turn-up"></i></a>
+        </div>
+        <div class="row ps-2 pe-2">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-header">
+                <h6><b><em>Strategic & Operating Skills</em></b></h6>
+              </div>
+              <div class="card-body">
+                <p class="card-text"><i class="fa-solid fa-list-check"></i> Problem Solving</p>
+                <p class="card-text"><i class="fa-solid fa-list-check"></i> Learning on the Fly</p>
+                <p class="card-text"><i class="fa-solid fa-list-check"></i> Planning</p>
+                <p class="card-text"><i class="fa-solid fa-list-check"></i> Priority Setting</p>
+                <p class="card-text"><i class="fa-solid fa-list-check"></i> Time Management</p>
+                <p class="card-text"><i class="fa-solid fa-list-check"></i> Timely Decision Making</p>
+                <p class="card-text"><i class="fa-solid fa-list-check"></i> Managing and Measuring Work </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-header">
+                <h6><b><em>Personal & Interpersonal Skills</em></b></h6>
+              </div>
+              <div class="card-body">
+                <p class="card-text"><i class="fa-solid fa-people-group"></i> Approachability</p>
+                <p class="card-text"><i class="fa-solid fa-people-group"></i> Integrity and Trust</p>
+                <p class="card-text"><i class="fa-solid fa-people-group"></i> Ethics and Values</p>
+                <p class="card-text"><i class="fa-solid fa-people-group"></i> Peer relationships</p>
+                <p class="card-text"><i class="fa-solid fa-people-group"></i> Listening</p>
+                <p class="card-text"><i class="fa-solid fa-people-group"></i> Self-knowledge</p>
+                <p class="card-text"><i class="fa-solid fa-people-group"></i> Humor</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-header">
+                <h6><b><em>Organizational Positioning Skills</em></b></h6>
+              </div>
+              <div class="card-body">
+                <p class="card-text"><i class="fa-solid fa-square-check"></i> Organizational Agility</p>
+                <p class="card-text"><i class="fa-solid fa-square-check"></i> Presentation Skills</p>
+                <p class="card-text"><i class="fa-solid fa-square-check"></i> Written Communication</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="container-fluid border-2 border rounded text-start mt-5 pb-4 additional-information"><a id="additional"></a>
+        <div class="mb-3 titolo">
+        <h4>Linguistic & Digital Skills</h4>
+        <a class="nav-link" href="#nav-head" style="margin-left: 15px;"><i class="fa-solid fa-arrow-turn-up"></i></a>
+        </div>
+        <div class="row ps-2 pe-2">
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-header">
+                <h6><b><em>Language</em></b></h6>
+              </div>
+              <div class="card-body">
+                <p class="card-text"><span><b>Spanish:</b></span> Native</p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="card-text"><span><b>English:</b></span> Upper-Intermediate</p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="card-text"><span><b>Italian:</b></span> Advanced</p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-header">
+                <h6><b><em>Client-Side Technology</em></b></h6>
+              </div>
+              <div class="card-body">
+                <p class="card-text"><b>HTML</b></p>
+                <p class="card-text"><b>CSS</b></p>
+                <p class="card-text"><b>JavaScript</b></p>
+                <p class="card-text"><b>React</b></p>
+                <p class="card-text"><b>Bootstrap</b></p>
+                <br>
+                <p class="text-end"><em>Acquired level: intermediate</em></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-header">
+                <h6><b><em>Server-Side Technology</em></b></h6>
+              </div>
+              <div class="card-body">
+                <p class="card-text"><b>PHP</b></p>
+                <p class="card-text"><b>Java</b></p>
+                <p class="card-text"><b>MySQL</b></p>
+                <br><br><br>
+                <p class="text-end"><em>Acquired level: intermediate</em></p>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-header">
+                <h6><b><em>Software</em></b></h6>
+              </div>
+              <div class="card-body">
+                <p class="card-text"><span><b>Productivity:</b></span> Microsoft 365</p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="card-text"><span><b>ERP:</b></span> JD Edwards // SAP</p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="card-text"><span><b>CAD:</b></span> AutoCAD 2D </p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 85%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-  </main>
-  <footer>
-    <!-- place footer here -->
-  </footer>
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
+      </div>
+    </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
-</body>
+    <footer class="p-2">
+      <div class="container-fluid rounded bg-dark text-white pt-3">
+        <div class="d-flex justify-content-around">
+          <p class="text">Fernando Martin Coeli</p>
+          <p class="text">Turin (TO) - Italy</p>
+          <p class="text"><i class="fa-solid fa-envelope-circle-check"></i> fercoeli@gmail.com</p>
+          <p class="text"><i class="fa-solid fa-square-phone"></i> +39 349 703 7114</p>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

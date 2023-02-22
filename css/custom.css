@@ -1,41 +1,105 @@
-.profilo {
-    height: 80px;
-    width: 80px;
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.contatti a {
+
+main .profile {
+    width: 90%;
+}
+
+header .contact a {
     text-decoration: none;
     color: grey;
-
 }
 
-.contatti a:hover {
-    color: rgb(2, 139, 139);
-    text-decoration: 2px underline;
+header .contact a:hover {
+    color:rgb(6, 52, 112);
     font-weight: bold;
-    font-size: 18px;
 }
 
-.titolo h5 {
-    color: rgb(2, 139, 139);
+header .title h5 {
+    font-weight: bold;
+    color:rgb(6, 52, 112);
+    font-weight: bold;
 }
 
-.nav {
+header .nav-bar .nav {
     background-image: linear-gradient(rgb(255, 255, 255), rgb(206, 206, 206));
-}
-
-.nav .nav-item .nav-link {
-    color: rgb(2, 139, 139);
-}
-
-.nav {
     border: 2px solid black;
     border-radius: 10px;
 }
 
-.nav .nav-link:hover {
+header .nav-bar .nav .nav-item .nav-link {
+    color: rgb(2, 139, 139);
+    transition: 0.2s;
+}
+
+header .nav-bar .nav .nav-link:hover {
+    color: rgb(6, 52, 112);
+    text-decoration: 1px underline;
+    text-decoration-style: double; 
+    text-shadow: 0 0 1px;
+    transform: translateY(-2px);
+}
+
+main .personal-information .nav-link {
+    color: #495057;
+    font-size: 18px;
+}
+
+
+main .personal-information .card-header {
+    background-image: linear-gradient(45deg, transparent, #028b8b);
+    border-radius: 5px;
+}
+
+main .experience p {
+    margin: 0 8px;
+
+}
+
+main .additional-information p {
+    margin-bottom: 0;
+}
+
+main .additional-information .card {
+    min-height: 250px;
+}
+
+main .progress {
+    margin-bottom: 15px;
+}
+
+main .skills, main .additional-information, main .experience, main .education,
+main .personal-information {
+    padding: 0;
+}
+
+main .skills .titolo, main .additional-information .titolo,
+main .experience .titolo, main .education .titolo,
+main .personal-information .titolo  {
+    background-image: linear-gradient(45deg, transparent, #028b8b);
+    border-radius: 5px 5px 0 0;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+main .skills .card-header {	
+    background-color: #d5ffd5;
+    background-image: linear-gradient(45deg, #d5ffd5, white);
+}
+
+main .skills .card i {	
+    color: #82be82;
+}
+
+
+.accordion-button:not(.collapsed), main .additional-information .card-header {
+    background-image: linear-gradient(45deg, #c5c5c5, rgb(236, 235, 235));
     color: black;
-    text-decoration: 2px underline;
-    text-decoration-style: double;
-    font-weight: bold;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
 }
